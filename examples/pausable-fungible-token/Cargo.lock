@@ -1499,6 +1499,7 @@ name = "near-contract-standards"
 version = "4.0.0-pre.2"
 dependencies = [
  "near-sdk",
+ "sha3",
 ]
 
 [[package]]
