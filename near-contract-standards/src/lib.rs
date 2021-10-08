@@ -1,3 +1,4 @@
+pub mod access;
 /// Fungible tokens as described in [by the spec](https://nomicon.io/Standards/FungibleToken/README.html).
 pub mod fungible_token;
 /// Non-fungible tokens as described in [by the spec](https://nomicon.io/Standards/NonFungibleToken/README.html).
