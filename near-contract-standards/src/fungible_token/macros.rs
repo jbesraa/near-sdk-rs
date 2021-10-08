@@ -153,6 +153,7 @@ macro_rules! impl_pausable_fungible_token_core {
         #[near_bindgen]
         impl Pausable for $contract {
             fn pause(&mut self, p: bool) {
+                self.access_control.only_role(&self.pauser_role);
                 self.paused = p;
             }
 
